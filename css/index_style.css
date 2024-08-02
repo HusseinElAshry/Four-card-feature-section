@@ -144,16 +144,20 @@
     margin-bottom:1rem;
 }
 .margin-x-2{
-    margin:0rem 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 } 
 .margin-x-1{
-    margin:0rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 } 
 .margin-y-2{
-    margin:2rem 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 } 
 .margin-y-1{
-    margin:1rem 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 } 
 .margin-bottom-1{
     margin-bottom:1rem;
@@ -227,23 +231,36 @@
     width: calc(100% - 2rem);
 }
 @media screen and (max-width:1200px){
-.main-card-content{
-    flex-direction: column;
+.w-large-100{
     width:100%;
 }
-.header-card-content{
-    width: 90%;
+.flex-large-column{
+    flex-direction: column;
 }
-.card{
+.content-large-box
+{
+    box-sizing: content-box;
+}
+.w-large-90{
     width:90%;
-    box-sizing: border-box;
-    margin:0rem 0rem 1rem 0rem;
 }
-
-.merged-card{
-    width: 90%;
+.margin-bottom-large-2{
+    margin-bottom:2rem;
 }
-.merged-card .card{
-    width: 100%;
+.margin-top-large-2{
+    margin-top:2rem;
+} 
+.margin-bottom-large-1{
+    margin-bottom:1rem ;
+}
+.margin-top-large-1{
+    margin-top:1rem ;
+} 
+.margin-x-large-0{
+    margin-left: 0px;
+    margin-right:0px;
+}
+.margin-top-large-0{
+    margin-top: 0px;
 }
 }
