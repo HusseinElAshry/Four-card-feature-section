@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.bg-main{
+    background-color:#fafafa;
+}
+.bg-light{
+    background: #ffffff;
+}
+.fs-small{
+    font-size:calc( 16/15rem );
+}
+.fs-large{
+    font-size:1.25rem;
+}
+.fs-larger{
+    font-size:2rem;
+}
+.h-100vh{
+    height:100vh;
+}
+.py-1{
+    padding: 1rem 0rem;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: calc(1/16rem);
+}
+.margin-0{
+    margin:0px;
+}
+.margin-top-2{
+    margin-top:2rem;
+} 
+.margin-left-2{
+    margin-left:2rem;
+}
+.margin-right-2{
+    margin-right:2rem;
+} 
+.margin-bottom-2{
+    margin-bottom:2rem;
+}
+.margin-top-1{
+    margin-top:1rem;
+} 
+.margin-left-1{
+    margin-left:1rem;
+}
+.margin-right-1{
+    margin-right:1rem;
+} 
+.margin-bottom-1{
+    margin-bottom:1rem;
+}
+.margin-x-2{
+    margin:0rem 2rem;
+} 
+.margin-x-1{
+    margin:0rem 1rem;
+} 
+.margin-y-2{
+    margin:2rem 0rem;
+} 
+.margin-y-1{
+    margin:1rem 0rem;
+} 
+.margin-bottom-1{
+    margin-bottom:1rem;
+}
+.d-flex{
+    display:flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.align-items-center{
+    align-items:center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.text-right{
+    text-align:right;
+}
+.text-center{
+    text-align:center;
+}
+.text-dark{
+    color: #4c4e61;
+}
+.text-light{
+    color:#a3a5ae;
+}
+.fit-content{
+    width:fit-content;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+.border-radius{
+    border-radius:2%;
+}
+.border-top-red{
+    border-top :#ea5353 solid 3px;
+}
+.border-top-cyan{
+    border-top :#45d3d3 solid 3px;
+}
+.border-top-orange{
+    border-top : #fcaf4a solid 3px;
+}
+.border-top-blue{
+    border-top: #549ef2 solid 3px;
+}
+.card{
+    box-shadow:#a3a5ae 3px 3px 15px 1px ;
+    width:calc(100%/3);
+    box-sizing: border-box;
+}
+.merged-card{
+    width: calc(100%/3);
+}
+.merged-card .card{
+    width: calc(100% - 2rem);
+}
+@media screen and (max-width:1200px){
+.main-card-content{
+    flex-direction: column;
+    width:100%;
+}
+.header-card-content{
+    width: 90%;
+}
+.card{
+    width:90%;
+    box-sizing: border-box;
+    margin:0rem 0rem 1rem 0rem;
+}
+
+.merged-card{
+    width: 90%;
+}
+.merged-card .card{
+    width: 100%;
+}
+}
